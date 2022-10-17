@@ -3,12 +3,12 @@ public class Student {
     private int id;
     private int age;
     private String course;
-    private int DOB;
+    private String DOB;
     private String userName;
     private String[] modulesRegistered;
 
 
-    public Student(String name, int id){
+    public Student(String name, int age, int id, String DOB){
         this.name = name;
         this.id = id;
         this.course = course;

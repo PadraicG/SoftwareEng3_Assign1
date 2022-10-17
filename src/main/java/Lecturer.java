@@ -1,12 +1,12 @@
 public class Lecturer {
     private String name;
     private int age;
-    private int DOB;
+    private String DOB;
     private String userName;
     private int id;
     private String[] modulesTaught;
 
-    public Lecturer(String name, int id)
+    public Lecturer(String name, int age, int id, String DOB)
     {
         this.name = name;
         this.age = age;
